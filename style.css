@@ -129,6 +129,16 @@ span.gmap-hover:hover span {
   width: 100%;
 }
 
+#message-container {
+  text-align: center;
+}
+
+.message {
+  display: block;
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+
 .site-description {
   font-size: 25px;
 }
