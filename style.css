@@ -2,8 +2,8 @@
      max-width: 1100px;
      margin: 0 auto;
      padding: 20px 20px 0;
-     border: solid;
-     border-width: 1px;
+     border-style: ridge;
+     border-width: 2px;
 }
 
 body{
@@ -101,8 +101,10 @@ span.gmap-hover:hover span {
 }
 
 @media screen and (max-width: 570px) {
-  .site-address {
+  .site-address, .site-town, .site-phone {
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 }
 
@@ -138,6 +140,7 @@ span.gmap-hover:hover span {
   padding-top: 15px;
   margin: 0 auto;
   max-width: 100%;
+}
 
 .site-description {
   font-size: 25px;
